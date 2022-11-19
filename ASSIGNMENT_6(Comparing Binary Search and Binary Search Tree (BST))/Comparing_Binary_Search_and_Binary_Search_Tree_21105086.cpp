@@ -2,7 +2,7 @@
 #include <queue>                     //SID:21105086 ECE
 using namespace std;
 
-//Creating ure of Node of a tree
+//Creating structre of Node of a tree
 class Node{
     public:
         int data;
@@ -55,7 +55,7 @@ void level_order_traversal(Node*root){
     }
 }
 
-//Function to get min value node in a Binary Search Tree
+//Function to get minimum value node in a Binary Search Tree
 Node* min_value_node(Node* node)
 {
     Node* current = node;
